@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    background-color: #FBFBFB;
+}
+
+#section-1 {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header i {
+    font-size: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+}
+
+.btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn button:nth-child(2) {
+    background-color: #000;
+    color: #fff;
+}
+
+.hero-div {
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: rgba(238, 238, 238, 0.662);
+    border-radius: 20px;
+    padding: 15px 30px;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero-div .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: crimson; */
+}
+
+.left .rating-button {
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.rating-button i {
+    font-size: 25px;
+}
+
+.rating-text h3 {
+    font-size: 16px;
+}
+
+.rating-text span {
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+.left h1 {
+    font-size: 100px;
+    line-height: 90px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left p {
+    font-size: 15px;
+    opacity: 0.8;
+    width: 90%;
+}
+
+.left .btn {}
+
+.left .btn button {
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left>h3 {}
+
+.btn button:nth-child(1) {
+    background-color: gainsboro;
+}
+
+.btn #arrow-left {
+    width: 25px;
+    height: 25px;
+    color: #000;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.logos {
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.left .logos img {
+    height: 50px;
+}
+
+.hero-div .right {
+    width: 50%;
+    height: 100%;
+    /* background-color: salmon; */
+}
+
+.right .imageDiv {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#section-2 {
+    width: 100%;
+    height: 100%;
+    padding: 15px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FBFBFB;
+}
+
+.marquee-div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+
+}
+
+.card {
+    width: 25%;
+    height: 100%;
+    background-color: rgba(238, 238, 238, 0.662);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.card .marquee-image-div {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: end;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+}
+
+.card:nth-child(2) .marquee-image-div {
+    background-image: url('https://plus.unsplash.com/premium_photo-1675616563084-63d1f129623d?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+}
+
+.card:nth-child(4) .marquee-image-div {
+    background-image: url('https://images.unsplash.com/photo-1608198399988-341f712c3711?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+}
+
+.marquee-image-div i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee-text {
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.marquee-text h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.marquee-text-3 h6 {
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.marquee-text p {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.card:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.card h5 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.explore-more {
+    display: flex;
+    gap: 10px;
+}
+
+.explore-more i {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2-footer {
+    width: 100%;
+    margin-top: 250px;
+}
+
+.section-2-footer h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(124, 126, 126);
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+#section-2 h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 55px;
+    text-transform: lowercase;
+}
+
+#section-3 {
+    width: 100%;
+    height: 15%;
+    background-color: #e7e7e793;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portions {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 12px;
+    /* background-color: rebeccapurple; */
+}
+
+.portions .portion-1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portion-1 .wila {
+    background-color: #FBFBFB;
+    padding: 20px 140px;
+}
+
+.portions .portion-2 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portions .portion-3 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portions .portion-4 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-4 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.star-rating {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.card:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.card:nth-child(3) .card-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card:nth-child(4) .card-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+
+.card-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    gap: 10px;
+    
+}
+
+.information h4{
+    margin-bottom: 20px;
+}
+
+.information h6{
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.662);
+    
+}
+
+.information h5{
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 15px;
+}
+
+.total-rooms{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.bathrooms{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.internet{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.coverd-parking{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#section-4 .marquee-text-4{
+    width: 100%;
+    height: 25%;
+    background-color: aquamarine;
+}
+
+.card-container{
+    display: flex;
+
+}
+
+.marquee-text-4 h5{
+    letter-spacing: normal;
+    text-transform: none;
+    font-size: 18px;
+}
+.marquee-text-4 i{
+    font-size: 24px;
+}
+
+.card-container p{
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.662);
+}
